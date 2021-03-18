@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:id="@+id/btnEx1"
+            android:layout_height="wrap_content"
+            android:text="Excricies 1"/>
+        <Button
+            android:id="@+id/btnEx2"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Excricies 2"/>
+        <Button
+            android:id="@+id/btnDemonstration"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Demonstration"/>
+        <Button
+            android:id="@+id/btnDemo1"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Demo 1"/>
+    </LinearLayout>
+
+
+</FrameLayout>

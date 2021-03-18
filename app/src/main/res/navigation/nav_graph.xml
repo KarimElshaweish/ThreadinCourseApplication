@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.karim.myapplication.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_EX1Fragment"
+            app:destination="@id/EX1Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_ex2Fragment"
+            app:destination="@id/ex2Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_demonstrationFragment"
+            app:destination="@id/demonstrationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_demo1Fragment"
+            app:destination="@id/demo1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/EX1Fragment"
+        android:name="com.karim.myapplication.Fragments.EX1Fragment"
+        android:label="fragment_e_x1"
+        tools:layout="@layout/fragment_e_x1" />
+    <fragment
+        android:id="@+id/ex2Fragment"
+        android:name="com.karim.myapplication.Fragments.Ex2Fragment"
+        android:label="fragment_ex2"
+        tools:layout="@layout/fragment_ex2" />
+    <fragment
+        android:id="@+id/demonstrationFragment"
+        android:name="com.karim.myapplication.DemonstrationFragment"
+        android:label="fragment_demonstration"
+        tools:layout="@layout/fragment_demonstration" />
+    <fragment
+        android:id="@+id/demo1Fragment"
+        android:name="com.karim.myapplication.Fragments.Demo1Fragment"
+        android:label="fragment_demo1"
+        tools:layout="@layout/fragment_demo1" />
+</navigation>
